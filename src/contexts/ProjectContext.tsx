@@ -183,7 +183,7 @@ export const ProjectProvider = ({ children }: ProjectContextProviderProps) => {
       demoLink: "https://betheltech.net",
       gitHub: true,
       gitHubOrCaseStudyLink:
-        "https://github.com/jeffordway/crud-application-with-typescript",
+        "https://github.com/jeffordway/crud-application",
     },
     {
       id: 8,
@@ -222,7 +222,7 @@ export const ProjectProvider = ({ children }: ProjectContextProviderProps) => {
       demoLink: "https://www.jeffordway.com",
       gitHub: true,
       gitHubOrCaseStudyLink:
-        "https://github.com/jeffordway/react-my-portfolio-website",
+        "https://github.com/jeffordway/react-portfolio-website",
     },
   ]);
   return (
