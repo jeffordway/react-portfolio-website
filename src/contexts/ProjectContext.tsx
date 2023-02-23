@@ -106,7 +106,7 @@ export const ProjectProvider = ({ children }: ProjectContextProviderProps) => {
         "I created a fun and engaging pizza order form for my first project on my journey to become a full-stack software developer. It is a simple but functional form where users can select their preferred crust, sauce, and toppings, and once submitted, the site will display their completed order and total cost. This project demonstrates my understanding of HTML, CSS, and JavaScript. I found it a fun and engaging process and enjoyed implementing styling with CSS to give it a unique design.",
       thumbnailImgUrl: "/assets/icons/pizza-order-form-thumbnail.svg",
       heroImgUrl: "/assets/images/pizza-order-form-hero.jpg",
-      demoLink: "https://betheltech.net",
+      demoLink: "https://obj-pizza-store-front.netlify.app",
       gitHub: true,
       gitHubOrCaseStudyLink: "https://github.com/jeffordway/pizza-order-form",
     },
@@ -128,10 +128,10 @@ export const ProjectProvider = ({ children }: ProjectContextProviderProps) => {
         "This project was about creating an exciting and unforgettable landing page for Kyle's adventurous resume. To make it stand out, we used Flexbox, CSS Grid, or Bootstrap to create an eye-catching design. But we didn't stop there! We added an extra touch of wow factor by using AJAX in JavaScript to fetch and display random advice from an API. It was an absolute blast to flex our creative muscles and ensure the page looks great on any screen. With a combination of design and functionality, Kyle's resume landing page will leave a lasting impression.",
       thumbnailImgUrl: "/assets/icons/responsive-resume-thumbnail.svg",
       heroImgUrl: "/assets/images/responsive-resume-website-hero.jpg",
-      demoLink: "https://betheltech.net",
+      demoLink: "https://obj-responsive-resume.netlify.app",
       gitHub: true,
       gitHubOrCaseStudyLink:
-        "https://github.com/jeffordway/responsive-resume-website",
+        "https://github.com/jeffordway/responsive-resume",
     },
     {
       id: 5,
