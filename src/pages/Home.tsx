@@ -8,7 +8,7 @@ import { ProjectContext } from "../contexts/ProjectContext";
 
 function Home() {
   const { projects } = useContext(ProjectContext);
-
+  const recentProjects = projects.sort((a, b) => b.id - a.id);
   return (
     <div className="flex flex-col gap-12 md:gap-16">
       <HomeHero />
@@ -21,7 +21,7 @@ function Home() {
           <ProjectCards
             className="grid grid-cols-1 gap-6"
             reactLink="projects/"
-            projects={projects.slice(-4)}
+            projects={recentProjects.slice(0, 4)}
           />
         </div>
         <div className="md:col-span-2">

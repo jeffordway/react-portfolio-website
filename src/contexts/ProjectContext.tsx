@@ -3,6 +3,7 @@ import React, {
   Dispatch,
   ReactNode,
   SetStateAction,
+  useEffect,
   useState,
 } from "react";
 
@@ -143,7 +144,7 @@ export const ProjectProvider = ({ children }: ProjectContextProviderProps) => {
         "I created a fun and engaging guessing game application using React that challenges users to guess a random lucky number between 1 and 100. With the help of the useState hook, I tracked the user's guess and the number of attempts made. The game interface includes a reset button that generates a new lucky number for the user to guess. To ensure a seamless user experience, I used Local Storage to store the game's progress and allow users to continue from where they left off even after refreshing the app. I utilized CSS Modules and Bootstrap components to create an interactive and visually appealing game. The best part of this project was watching my nieces and nephews enjoy playing the game and asking for more rounds.",
       thumbnailImgUrl: "/assets/icons/react-guessing-game-thumbnail.svg",
       heroImgUrl: "/assets/images/react-guessing-game-hero.jpg",
-      demoLink: "https://betheltech.net",
+      demoLink: "https://obj-react-guessing-game.netlify.app/",
       gitHub: true,
       gitHubOrCaseStudyLink:
         "https://github.com/jeffordway/react-guessing-game",
@@ -177,7 +178,7 @@ export const ProjectProvider = ({ children }: ProjectContextProviderProps) => {
         "VS Code",
       ],
       description:
-        "I'm proud to say that I successfully created a Pet Adoption website that allows users to manage pets for adoption using basic CRUD operations. To ensure my website is scalable and efficient, I used an MVC architecture and Sequelize as the ORM to a MySQL database. I also carefully designed CRUD operations and created a visually appealing and easy-to-use layout. I'm excited to show off my skills and share this website with others. It may even encourage someone to adopt a new furry friend!",
+        "A Pet Adoption website that allows users to manage pets for adoption using basic CRUD operations. To ensure my website is scalable and efficient, I used an MVC architecture and Sequelize as the ORM to a MySQL database. I also carefully designed CRUD operations and created a visually appealing and easy-to-use layout. I'm excited to show off my skills and share this website with others. It may even encourage someone to adopt a new furry friend!",
       thumbnailImgUrl: "/assets/icons/crud-application-thumbnail.svg",
       heroImgUrl: "/assets/images/crud-application-hero.jpg",
       demoLink: "https://betheltech.net",
@@ -207,7 +208,7 @@ export const ProjectProvider = ({ children }: ProjectContextProviderProps) => {
       heroImgUrl: "/assets/images/twitter-clone-hero.jpg",
       demoLink: "https://betheltech.net",
       gitHub: true,
-      gitHubOrCaseStudyLink: "https://github.com/jeffordway/twitter-clone-api",
+      gitHubOrCaseStudyLink: "https://github.com/jeffordway/twitter-clone-client",
     },
     {
       id: 9,
@@ -224,7 +225,10 @@ export const ProjectProvider = ({ children }: ProjectContextProviderProps) => {
       gitHubOrCaseStudyLink:
         "https://github.com/jeffordway/react-portfolio-website",
     },
+
+
   ]);
+
   return (
     <ProjectContext.Provider
       value={{

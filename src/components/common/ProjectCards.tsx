@@ -74,55 +74,6 @@ function ProjectCards({ className, reactLink, projects }: ProjectCardsProps) {
       {projects.map((project: project) => Card(project))}
     </ul>
   );
-
-  // return (
-  //   <ul role="list" className={className}>
-  //     {projects.map((project: project) => (
-  //       <li
-  //         key={project.title}
-  //         className={`${lightModeStyle} ${darkModeStyle} col-span-1  rounded-xl border shadow`}
-  //       >
-  //         <div className="flex w-full items-center justify-between p-6">
-  //           <img
-  //             className="h-16 w-16 rounded-full bg-stone-600 hidden"
-  //             src={project.thumbnailImgUrl}
-  //             alt=""
-  //           />
-  //           <div className="flex-1">
-  //             <div className="flex items-center">
-  //               <h3 className="text-sm font-bold text-stone-800 dark:text-stone-200">
-  //                 {project.title}
-  //               </h3>
-  //             </div>
-  //             <p className="mt-1 text-sm font-light text-stone-600 dark:text-stone-300">
-  //               {project.heading}
-  //             </p>
-
-  //             <div className="flex items-center pt-2">
-  //               <Link
-  //                 to={`projects/${project.id}`}
-  //                 className="flex items-center text-sm font-semibold text-stone-600 hover:text-sky-600 dark:text-stone-200 dark:hover:text-sky-600"
-  //               >
-  //                 <div className="flex items-center m-r">
-  //                   <div className="mr-1">more details</div>
-  //                   <HiArrowUpRight />
-  //                 </div>
-  //               </Link>
-  //               <a
-  //                 href={``}
-  //                 target="_blank"
-  //                 className="flex items-center text-sm font-semibold text-stone-600 hover:text-sky-600 dark:text-stone-200 dark:hover:text-sky-600"
-  //               >
-  //                 <span className="mr-1">view on github</span>
-  //                 <HiArrowUpRight />
-  //               </a>
-  //             </div>
-  //           </div>
-  //         </div>
-  //       </li>
-  //     ))}
-  //   </ul>
-  // );
 }
 
 export default ProjectCards;
