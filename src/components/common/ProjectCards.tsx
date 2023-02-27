@@ -22,7 +22,7 @@ function ProjectCards({ className, reactLink, projects }: ProjectCardsProps) {
       >
         <div className="flex w-full items-center gap-6 p-6">
           <img
-            className={`w-16 h-16 rounded-full object-cover bg-sky-600`}
+            className={`w-16 h-16 rounded-full hidden sm:flex object-cover bg-sky-600`}
             src={item.thumbnailImgUrl}
             alt={item.title}
           />
@@ -33,7 +33,7 @@ function ProjectCards({ className, reactLink, projects }: ProjectCardsProps) {
             <div className="flex grow my-2 text-sm font-light text-stone-600 dark:text-stone-300">
               {item.tagline}
             </div>
-            <div className="flex">
+            <div className="flex-row xs:flex">
               <div className="mr-6">
                 <Link
                   to={`${reactLink}${encodeURI(item.title)}`}

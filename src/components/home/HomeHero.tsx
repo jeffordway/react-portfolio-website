@@ -10,7 +10,7 @@ function HomeHero() {
       <img
         src="./assets/images/jeff.jpg"
         alt="Jeff Ordway Photo"
-        className="w-20 rounded-full"
+        className="hidden xs:flex w-20 rounded-full"
       />
       <h1 className="max-w-2xl text-4xl md:text-5xl font-bold">
         Full Stack Developer with an eye for design.

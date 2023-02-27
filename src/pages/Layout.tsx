@@ -9,9 +9,9 @@ function Layout() {
   return (
     <div className={`${darkMode}`}>
       <div className="dark:bg-stone-900 dark:text-stone-200">
-        <div className="relative flex-col min-h-screen m-auto max-w-6xl border-x border-stone-200 dark:border-stone-700 bg-white p-16 dark:bg-stone-800 xs:px-4 md:px-8 lg:px-12">
+        <div className="relative flex-col min-h-screen m-auto max-w-6xl border-x border-stone-200 dark:border-stone-700 bg-white dark:bg-stone-800  p-4 sm:p-12 lg:p-16">
           <Header />
-          <main className="mx-12 my-32 min-h-[60vh]">
+          <main className="2xs:mx-4 2xs:my-8 sm:mx-12 sm:my-32 min-h-[60vh]">
             <Outlet />
           </main>
           <div>
