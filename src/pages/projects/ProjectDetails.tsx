@@ -41,16 +41,18 @@ function ProjectDetails() {
       </div>
 
       <div className="flex items-center space-x-8 max-w-2xl">
-        <a
-          href={selectedProject.demoLink}
-          target="_blank"
-          className="inline-flex items-center text-sm font-semibold text-stone-600 hover:text-sky-600 dark:text-stone-200 dark:hover:text-sky-600"
-        >
-          <span className="mr-1">
-            {selectedProject.gitHub ? "view demo" : "view prototype"}
-          </span>
-          <HiArrowUpRight />
-        </a>
+        {selectedProject.demo && (
+          <a
+            href={selectedProject.demoLink}
+            target="_blank"
+            className="inline-flex items-center text-sm font-semibold text-stone-600 hover:text-sky-600 dark:text-stone-200 dark:hover:text-sky-600"
+          >
+            <span className="mr-1">
+              {selectedProject.gitHub ? "view demo" : "view prototype"}
+            </span>
+            <HiArrowUpRight />
+          </a>
+        )}
 
         {selectedProject.gitHub ? (
           <a
