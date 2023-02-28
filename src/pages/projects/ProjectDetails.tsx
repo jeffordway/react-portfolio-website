@@ -66,7 +66,7 @@ function ProjectDetails() {
         ) : (
           <a
             href={selectedProject.gitHubOrCaseStudyLink}
-            download
+            target="_blank"
             className="inline-flex items-center text-sm font-semibold text-stone-600 hover:text-sky-600 dark:text-stone-200 dark:hover:text-sky-600"
           >
             <span className="mr-1">download case study</span>
