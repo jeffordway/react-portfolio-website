@@ -131,8 +131,7 @@ export const ProjectProvider = ({ children }: ProjectContextProviderProps) => {
       heroImgUrl: "/assets/images/responsive-resume-website-hero.jpg",
       demoLink: "https://obj-responsive-resume.netlify.app",
       gitHub: true,
-      gitHubOrCaseStudyLink:
-        "https://github.com/jeffordway/responsive-resume",
+      gitHubOrCaseStudyLink: "https://github.com/jeffordway/responsive-resume",
     },
     {
       id: 5,
@@ -153,7 +152,7 @@ export const ProjectProvider = ({ children }: ProjectContextProviderProps) => {
       id: 6,
       title: "React Store Front",
       tagline:
-        "A user-friendly online storefront for Montclaire Farms built with React, CRUD functionality, search filters, and stylish CSS design.",
+        "A user-friendly online storefront for the fictional Montclaire Farms built with React, CRUD functionality, search filters, and stylish CSS design.",
       tools: ["React", "JavaScript", "CSS", "Axios", "Bootstrap", "VS Code"],
       description:
         "Using React, I built a fully-functional online storefront for the fictional Montclaire Farms by designing a data model for items, creating a JSON server with mock items, and implementing advanced features such as CRUD functionality, search filters, and stylish CSS design using React Bootstrap Components, resulting in a user-friendly and polished application that was a joy to work on and see come together as the front half of a full-stack application.",
@@ -183,8 +182,7 @@ export const ProjectProvider = ({ children }: ProjectContextProviderProps) => {
       heroImgUrl: "/assets/images/crud-application-hero.jpg",
       demoLink: "https://betheltech.net",
       gitHub: true,
-      gitHubOrCaseStudyLink:
-        "https://github.com/jeffordway/crud-application",
+      gitHubOrCaseStudyLink: "https://github.com/jeffordway/crud-application",
     },
     {
       id: 8,
@@ -208,7 +206,8 @@ export const ProjectProvider = ({ children }: ProjectContextProviderProps) => {
       heroImgUrl: "/assets/images/twitter-clone-hero.jpg",
       demoLink: "https://betheltech.net",
       gitHub: true,
-      gitHubOrCaseStudyLink: "https://github.com/jeffordway/twitter-clone-client",
+      gitHubOrCaseStudyLink:
+        "https://github.com/jeffordway/twitter-clone-client",
     },
     {
       id: 9,
@@ -225,8 +224,6 @@ export const ProjectProvider = ({ children }: ProjectContextProviderProps) => {
       gitHubOrCaseStudyLink:
         "https://github.com/jeffordway/react-portfolio-website",
     },
-
-
   ]);
 
   return (
