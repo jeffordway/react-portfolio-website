@@ -74,7 +74,7 @@ export const ProjectProvider = ({ children }: ProjectContextProviderProps) => {
         "https://www.figma.com/proto/IdbIdO8dxODJmwcyP1gVhg/The-Grape-Line-App-Prototype?page-id=191%3A9981&node-id=191%3A10072&viewport=603%2C2440%2C0.25&scaling=min-zoom&starting-point-node-id=276%3A19713&show-proto-sidebar=1",
       gitHub: false,
       gitHubOrCaseStudyLink:
-        "dist/assets/documents/grapeline-transit-app-case-study.pdf",
+        "/assets/documents/grapeline-transit-app-case-study.pdf",
     },
     {
       id: 2,
@@ -99,7 +99,7 @@ export const ProjectProvider = ({ children }: ProjectContextProviderProps) => {
         "https://www.figma.com/proto/qjgiCgFkUwfpOuni3iaV72/Capstone-Project-UIUX108?page-id=319%3A8651&node-id=319%3A10640&viewport=268%2C727%2C0.03&scaling=scale-down&starting-point-node-id=333%3A14175&show-proto-sidebar=1",
       gitHub: false,
       gitHubOrCaseStudyLink:
-        "dist/assets/documents/axiel-reading-app-case-study.pdf",
+        "/assets/documents/axiel-reading-app-case-study.pdf",
     },
     {
       id: 3,
