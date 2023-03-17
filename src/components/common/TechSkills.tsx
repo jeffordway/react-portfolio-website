@@ -16,6 +16,7 @@ function TechSkills() {
     "Express",
     "Figma",
     "Handlebars",
+    "JSON",
     "Jest",
     "Jsonwebtoken",
     "Mocha",
