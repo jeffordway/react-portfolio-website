@@ -10,15 +10,12 @@ function ProjectHero() {
       </h1>
       <div className="max-w-2xl font-light text-stone-700 dark:text-stone-300">
         <p>
-          Since writing my first code to print "Hello World," I've persevered
-          through countless hours of hard work and dedication to become a
-          proficient developer. I've gained experience with HTML, CSS,
-          JavaScript, TypeScript, and React. In addition, through personal
-          projects and collaborations, I've developed various skills in building
-          web applications from start to finish. From front-end design to
-          back-end functionality and deployment, I'm confident in my abilities
-          as a junior developer and eager to continue honing my skills to build
-          projects that bring hope and joy to others.
+          Ever since writing my first line of code, I've persevered through
+          countless hours of hard work and dedication to become a proficient
+          full-stack developer. Along this journey, I have gained experience
+          with various languages and frameworks, including JavaScript,
+          Typescript, React, MySQL, MongoDB, Tailwind, Bootstrap, HTML, React,
+          HTML, CSS, Ajax, JSON, and Figma.
         </p>
       </div>
     </div>

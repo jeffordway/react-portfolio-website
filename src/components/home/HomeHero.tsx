@@ -17,12 +17,11 @@ function HomeHero() {
       </h1>
       <div className="max-w-2xl font-light text-stone-600 dark:text-stone-300">
         <p>
-          I'm Jeff Ordway, a Full Stack Developer passionate about creating
-          engaging and visually appealing projects that inspire hope and joy in
-          others. Through a commitment to excellence, I've learned never to let
-          fear guide my decisions, no matter how big or small. When not coding,
-          I enjoy creating fun memories with my family, playing games, and
-          exploring the great outdoors.
+          I'm Jeff Ordway, a full-stack developer passionate about creating
+          visually stunning and engaging coding projects that inspire a sense of
+          hope and joy in every user. I believe every line of code is an
+          opportunity to brighten someone's day. That's why I approach each
+          project with a focus on excellence, integrity, and courage.
         </p>
       </div>
       <div className="flex space-x-2 text-stone-400">
