@@ -14,8 +14,8 @@ function ProjectHero() {
           countless hours of hard work and dedication to become a proficient
           full-stack developer. Along this journey, I have gained experience
           with various languages and frameworks, including JavaScript,
-          Typescript, React, MySQL, MongoDB, Tailwind, Bootstrap, HTML, React,
-          HTML, CSS, Ajax, JSON, and Figma.
+          Typescript, React, HTML, CSS, Ajax, JSON, MySQL, MongoDB, Tailwind,
+          Bootstrap, and Figma.
         </p>
       </div>
     </div>

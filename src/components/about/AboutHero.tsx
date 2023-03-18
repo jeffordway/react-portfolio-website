@@ -26,8 +26,8 @@ function AboutHero() {
           Despite the challenges of transitioning to a new career, I've never
           let fear guide my decisions. So, I enrolled at the Bethel School of
           Technology, where I became proficient in JavaScript, Typescript,
-          React, MySQL, MongoDB, Tailwind, Bootstrap, HTML, React, HTML, CSS,
-          Ajax, JSON, and Figma.
+          React, HTML, CSS, Ajax, JSON, MySQL, MongoDB, Tailwind, Bootstrap, and
+          Figma.
         </p>
         <br />
         <p>

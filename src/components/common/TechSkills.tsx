@@ -3,11 +3,11 @@ import TechBadges from "./TechBadges";
 
 function TechSkills() {
   const techSkills: string[] = [
-    "React",
-    "TypeScript",
     "JavaScript",
-    "CSS",
+    "TypeScript",
+    "React",
     "HTML",
+    "CSS",
     "Ajax",
     "Axios",
     "Bcrypt",
