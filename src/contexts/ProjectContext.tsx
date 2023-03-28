@@ -15,7 +15,7 @@ export interface project {
   description: string;
   thumbnailImgUrl: string;
   heroImgUrl: string;
-  demo:boolean;
+  demo: boolean;
   demoLink: string;
   gitHub: boolean;
   gitHubOrCaseStudyLink: string;
@@ -234,6 +234,22 @@ export const ProjectProvider = ({ children }: ProjectContextProviderProps) => {
       gitHub: true,
       gitHubOrCaseStudyLink:
         "https://github.com/jeffordway/react-portfolio-website",
+    },
+    {
+      id: 10,
+      title: "React Weather App",
+      tagline:
+        "Stay weather-ready worldwide - use our React & NextJS app to check current conditions in any city!",
+      tools: ["React", "JavaScript", "Axios", "Tailwinds"],
+      description:
+        "The weather app I built using React and NextJS, Axios, and the Open Weather API is a convenient and user-friendly way for users to check the current weather conditions in any city worldwide. The app allows users to enter the name of the city they are interested in and then uses the Open Weather API to retrieve the current weather data for that location. In addition, the app displays the current temperature, weather conditions, wind speed and direction, and humidity level. The user interface is clean and intuitive, with easy-to-use search functionality and precise, easy-to-read weather data. With this app, users can quickly and easily stay up-to-date on the weather conditions in any location.",
+      thumbnailImgUrl: "/assets/icons/react-weather-app-thumbnail.svg",
+      heroImgUrl: "/assets/images/react-weather-app.jpg",
+      demo: true,
+      demoLink: "https://obj-react-weather-app.netlify.app",
+      gitHub: true,
+      gitHubOrCaseStudyLink:
+        "https://github.com/jeffordway/react-weather-app",
     },
   ]);
 

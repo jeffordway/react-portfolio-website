@@ -6,6 +6,7 @@ function TechSkills() {
     "JavaScript",
     "TypeScript",
     "React",
+    "NodeJS",
     "HTML",
     "CSS",
     "Ajax",
