@@ -5,42 +5,48 @@ function AboutHero() {
   return (
     <div className="grid grid-flow-row auto-rows-auto gap-6 md:gap-8">
       <h1 className="max-w-2xl text-4xl md:text-5xl font-bold">
-        Hello! I'm Jeff Ordway, a full-stack developer with an eye for design.
+        Hey there! It’s me, Jeff Ordway.
       </h1>
       <div className="max-w-2xl font-light text-stone-700 dark:text-stone-300">
         <p>
-          I'm passionate about creating visually stunning and engaging coding
-          projects that inspire a sense of hope and joy in every user. However,
-          my journey to becoming a developer was not a straightforward one.
+          I’m a former Parks and Recreation professional turned avid developer,
+          designer, and marketer. I am passionate about harnessing my
+          creativity, problem-solving skills, and adventurous spirit to design
+          innovative, delightful solutions that inspire hope, ignite joy, and
+          empower others.
         </p>
         <br />
         <p>
-          I started my career in Parks and Recreation, organizing community
-          sports programs and events. This experience helped me develop
-          essential problem-solving and team-building skills that have proved
-          invaluable in my career. However, my persistent curiosity about coding
-          and design led me to open the door to becoming a full-stack developer.
+          You know, I’ve often been asked if my time in the Parks and Recreation
+          Department was anything like the TV show. Well, not quite. But let me
+          tell you, some days would have left even Leslie Knope’s head spinning.
         </p>
         <br />
         <p>
-          Despite the challenges of transitioning to a new career, I've never
-          let fear guide my decisions. So, I enrolled at the Bethel School of
-          Technology, where I became proficient in JavaScript, Typescript,
-          React, NodeJS, HTML, CSS, Ajax, JSON, MySQL, MongoDB, Tailwind, Bootstrap, and
-          Figma.
+          Consider, for example, a day I was engrossed in our marketing plan for
+          the Big Bunny 5K race. A knock at my office door interrupted my focus
+          as I looked up to see a lady clutching a large, very disgruntled
+          goose. She’d witnessed the bird swallowing marbles and figured the
+          best course of action would be to bring it straight to Parks and Rec.
+          Of course, goose rescue was not in my job description, but like many
+          other days, the plan quickly flew out the window.
         </p>
         <br />
         <p>
-          Although this journey hasn't been easy, it has helped me grow to
-          become a confident developer. I believe every line of code is an
-          opportunity to brighten someone's day. That's why I approach each
-          project with a focus on excellence, integrity, and courage.
+          Following a flurry of frantic phone calls, we managed to secure the
+          help needed for our marble-ingesting friend. It was a wild detour from
+          the day’s plan, but hey, that’s life in Parks and Rec. Unexpected
+          challenges that called for creative solutions were all part of the
+          day’s work.
         </p>
         <br />
         <p>
-          When I'm not busy coding, you can find me spending quality time with
-          my family, playing games and sports with friends, or exploring the
-          great outdoors.
+          And guess what? The same principle holds true for design, development,
+          and marketing. Code can go rogue, users find novel ways to interact
+          with interfaces, and campaigns that look brilliant on paper might need
+          a complete overhaul in practice. But experiences like the goose
+          incident have taught me the value of quick thinking, adaptability, and
+          prioritizing the user (or goose).
         </p>
       </div>
     </div>

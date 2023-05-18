@@ -12,16 +12,16 @@ function HomeHero() {
         alt="Jeff Ordway Photo"
         className="hidden xs:flex w-20 rounded-full"
       />
-      <h1 className="max-w-2xl text-4xl md:text-5xl font-bold">
-        Full Stack Developer with an eye for design.
+      <h1 className="max-w-lg text-4xl md:text-5xl font-bold">
+        Hey there! It’s me, Jeff Ordway.
       </h1>
       <div className="max-w-2xl font-light text-stone-600 dark:text-stone-300">
         <p>
-          I'm Jeff Ordway, a full-stack developer passionate about creating
-          visually stunning and engaging coding projects that inspire a sense of
-          hope and joy in every user. I believe every line of code is an
-          opportunity to brighten someone's day. That's why I approach each
-          project with a focus on excellence, integrity, and courage.
+          I’m a former Parks and Recreation professional turned avid developer,
+          designer, and marketer. I am passionate about harnessing my
+          creativity, problem-solving skills, and adventurous spirit to design
+          innovative, delightful solutions that inspire hope, ignite joy, and
+          empower others.
         </p>
       </div>
       <div className="flex space-x-2 text-stone-400">
