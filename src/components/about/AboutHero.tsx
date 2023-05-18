@@ -48,6 +48,20 @@ function AboutHero() {
           incident have taught me the value of quick thinking, adaptability, and
           prioritizing the user (or goose).
         </p>
+        <p>
+          I’ve been fortunate to apply these principles to various projects
+          throughout my career. For example, I’ve developed a mobile app to
+          foster community connections, designed an application to empower
+          dyslexic students, and crafted compelling marketing campaigns that
+          drive engagement.
+        </p>
+        <p>
+          The bottom line is - no matter the project, I bring the same tenacity,
+          problem-solving prowess, and can-do attitude that I used to help that
+          marble-eating goose. I look forward to continuing to tackle challenges
+          (preferably less feathery ones) and creating meaningful and impactful
+          digital experiences.
+        </p>
       </div>
     </div>
   );
